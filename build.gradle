@@ -44,10 +44,11 @@ dependencies {
     modCompileOnly libs.bundles.quilt
     modRuntimeOnly libs.bundles.quilt
 
-    modImplementation libs.bundles.libs
-    include libs.bundles.libs
+    modImplementation libs.bundles.include
+    include libs.bundles.include
 
-    modRuntimeOnly libs.bundles.runtime
+    modCompileOnly libs.bundles.compile
+    modRuntimeOnly libs.bundles.compile
 
     modRuntimeOnly libs.bundles.qol
 }

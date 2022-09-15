@@ -36,8 +36,8 @@ modmenu = { module = "com.terraformersmc:modmenu", version.ref = "modmenu" }
 # If you have multiple similar dependencies, you can declare a dependency bundle and reference it on the build script with "libs.bundles.example".
 [bundles]
 quilt = ["quilt_loader", "qfapi", "qkl"]
-libs = ["ears_api", "libgui"]
-runtime = ["ears"]
+include = ["ears_api", "libgui"]
+compile = ["ears"]
 qol = ["modmenu"]
 
 [plugins]
